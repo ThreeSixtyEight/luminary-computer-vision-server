@@ -1,8 +1,5 @@
 import cv2
 import mediapipe as mp
-import numpy as np
-import time
-from cvzone.HandTrackingModule import HandDetector
 
 GREEN_COLOR = (0, 255, 0)
 

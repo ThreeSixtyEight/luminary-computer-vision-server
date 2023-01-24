@@ -1,11 +1,8 @@
 from flask import Flask, request,jsonify
 from flask_socketio import SocketIO,emit
 from flask_cors import CORS
-from cvzone.HandTrackingModule import HandDetector
 import cv2
 import mediapipe as mp
-from flask_apscheduler import APScheduler
-import datetime
 import eventlet
 
 cap = cv2.VideoCapture(0)
